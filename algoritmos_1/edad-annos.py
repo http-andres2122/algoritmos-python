@@ -18,7 +18,7 @@ def calcular_edad(fecha_nacimiento):
         print("Error: Formato de fecha incorrecto. Utilice el formato YYYY-MM-DD.")
         return None, None
 
-# Ejemplo de uso
+# Input fecha
 fecha_nacimiento_input = input("Ingrese la fecha de nacimiento (YYYY-MM-DD): ")
 
 # Calcular la edad y obtener la fecha actual

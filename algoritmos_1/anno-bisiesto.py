@@ -18,7 +18,7 @@ def es_bisiesto(anno):
     else:
         return False
 
-# Ejemplo de uso
+# Input anho
 anno_input = input("Ingrese un año: ")
 
 # Validar que la entrada sea un número
