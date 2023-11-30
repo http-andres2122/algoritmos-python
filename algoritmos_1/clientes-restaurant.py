@@ -23,7 +23,7 @@ def main():
     for i in range(num_clientes):
         nombre_cliente = input(f"Ingrese el nombre del cliente {i + 1}: ")
         cliente = Cliente(nombre_cliente)
-        clientes.append(cliente)
+        clientes.append(clientes)
 
     # Registrar consumos
     for cliente in clientes:
@@ -38,7 +38,6 @@ def main():
         print(f"{cliente.nombre}: Pago = {pago_cliente:.2f}")
 
     print(f"\nTotal de todos los pagos: {total_pagos:.2f}")
-
 
 if __name__ == "__main__":
     main()
